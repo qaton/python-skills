@@ -10,6 +10,19 @@ def main():
     ✨ Comienza tu código acá 👇🏼
     """
 
+# Pide al usuario que ingrese un número
+
+
+numero = int(input("Ingrese un número: "))
+
+# Determina si el número es par o impar
+
+
+if numero % 2 == 0:
+    print(f"El número {numero} es par.")
+else:
+    print(f"El número {numero} es impar.")
+
 
 # No borres esto 👇🏼
 if __name__ == '__main__':
