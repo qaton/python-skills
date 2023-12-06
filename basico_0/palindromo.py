@@ -7,3 +7,20 @@ Ejemplos de palíndromos de una palabra: oso, ana, ojo, radar, orejero, reconoce
 """
 
 # ✨ Comienza tu código acá 👇🏼
+# Definición de la función para verificar si una palabra es un palíndromo
+
+
+def es_palindromo(palabra):
+    palabra = palabra.lower() #convierto a minuscula
+    #método list conviente el string en una lista cada digito de la palabra
+    #método reserved modifical la secuencia original a una secuencia invertida
+    return list(palabra) == list(reversed(palabra))
+
+# Solicitar al usuario que ingrese una palabra
+palabra_usuario = input("Ingrese una palabra para verificar si es un palíndromo: ")
+
+# Verificar si la palabra es un palíndromo
+if es_palindromo(palabra_usuario):
+    print(f"La palabra '{palabra_usuario}' es un palíndromo.")
+else:
+    print(f"La palabra '{palabra_usuario}' no es un palíndromo.")

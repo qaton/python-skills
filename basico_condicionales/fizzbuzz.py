@@ -1,5 +1,6 @@
 """
-FizzBuzz es un problema comúnmente utilizado en entrevistas de programación. El objetivo es imprimir una serie de números desde 1 hasta un número dado, pero con algunas reglas especiales:
+FizzBuzz es un problema comúnmente utilizado en entrevistas de programación. El objetivo es imprimir una serie
+de números desde 1 hasta un número dado, pero con algunas reglas especiales:
 
 1. Si el número es divisible por 3, en lugar de imprimir el número, debes imprimir "Fizz".
 2. Si el número es divisible por 5, en lugar de imprimir el número, debes imprimir "Buzz".
@@ -25,3 +26,19 @@ FizzBuzz
 """
 
 # ✨ Comienza tu código acá 👇🏼
+
+def fizzbuzz(numero):
+    if numero % 3 == 0 and numero % 5 == 0:
+        return "FizzBuzz"
+    elif numero % 3 == 0:
+        return "Fizz"
+    elif numero % 5 == 0:
+        return "Buzz"
+    else:
+        return numero
+
+for numero in range(1, 16):  #crea una secuencia de números desde 1 hasta 15 (el último número, 16, no se incluye)
+    print(fizzbuzz(numero))
+
+
+
