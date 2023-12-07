@@ -15,6 +15,9 @@ def ingresar_temperatura():
             print("ingrese temperatura valida")
 
 
+
+
+
 ingresar_temperatura()
 
 
