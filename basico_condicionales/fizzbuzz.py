@@ -41,4 +41,9 @@ for numero in range(1, 16):  #crea una secuencia de números desde 1 hasta 15 (e
     print(fizzbuzz(numero))
 
 
-
+mi_lista = 5
+def longitud(mi_lista):
+    cont = 0
+    for _ in mi_lista:
+        cont += 1
+    return cont
