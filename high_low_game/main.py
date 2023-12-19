@@ -6,7 +6,7 @@ from replit import clear
 
 
 def format_data(account):
-    """ Takes the account data and return the printable format """
+    """ Toma los datos de la cuenta y devuelve el formato imprimible. """
     account_name = account["name"]
     account_descr = account["description"]
     account_country = account["country"]
@@ -14,8 +14,8 @@ def format_data(account):
 
 
 def check_answer(guess, a_fallowers, b_fallowers):
-    """ Take the user guess and follower counts and returns
-    if they got it right. """
+    """ Toma la conjetura del usuario y el recuento de seguidores
+    y devuelve si acertaron """
     if a_fallowers > b_fallowers:
         if guess == "a":
             return guess == "a"
