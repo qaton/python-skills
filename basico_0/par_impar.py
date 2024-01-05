@@ -13,7 +13,7 @@ def main():
 # Pide al usuario que ingrese un número
 
 
-numero = int(input("Ingrese un número: "))
+numero = int(input("Ingresa un número: "))
 
 # Determina si el número es par o impar
 
