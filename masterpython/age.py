@@ -20,4 +20,5 @@ Example Input
 56
 Example Output
 You have 1768 weeks left. """
+
 # Write your code below this line 👇
