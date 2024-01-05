@@ -18,7 +18,7 @@ positions of the commas and full stops.
 Example Input
 56
 Example Output
-You have 1768 weeks left. """
+You have 1768 weeks left """
 # Write your code below this line 👇
 
 # put age input
